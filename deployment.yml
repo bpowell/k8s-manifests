@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: nginx-deployment-test
-  namespace: k8s-v2-tests
+  namespace: brandon
 spec:
   selector:
     matchLabels:
